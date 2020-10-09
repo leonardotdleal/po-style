@@ -37,6 +37,7 @@
 .po-chart-svg-element {
   display: block;
   margin: 0 auto;
+  overflow: visible;
 }
 
 po-chart-legend {
@@ -105,4 +106,29 @@ po-chart-legend {
   .po-chart-legend-item:not(:last-child) {
     margin-right: 24px;
   }
+}
+
+/* 
+FALTA ORGANIZAR EM BLOCOS
+
+po-chart-axis */
+
+.po-chart-axis-path {
+  /* DEFINIR DEFAULT */
+  stroke: #999999;
+  stroke-width: 0.5;
+}
+
+.po-chart-axis-x-label,
+.po-chart-axis-y-label {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.po-chart-axis-x-label {
+  text-anchor: end;
+}
+
+.po-chart-axis-y-label {
+  text-anchor: middle;
 }
