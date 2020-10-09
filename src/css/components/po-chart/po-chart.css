@@ -132,3 +132,9 @@ po-chart-axis */
 .po-chart-axis-y-label {
   text-anchor: middle;
 }
+
+.po-chart-line-path {
+  fill: none;
+  stroke: rgb(41, 182, 197);
+  stroke-width: 2;
+}
