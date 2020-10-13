@@ -37,7 +37,6 @@
 .po-chart-svg-element {
   display: block;
   margin: 0 auto;
-  overflow: visible;
 }
 
 po-chart-legend {
@@ -133,8 +132,16 @@ po-chart-axis */
   text-anchor: middle;
 }
 
+.po-chart-line-path,
+.po-chart-line-point {
+  stroke-width: 2;
+  /* tratar */
+}
+
 .po-chart-line-path {
   fill: none;
-  stroke: rgb(41, 182, 197);
-  stroke-width: 2;
+}
+
+.po-chart-line-point {
+  fill: #ffffff;
 }
